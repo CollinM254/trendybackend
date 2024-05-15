@@ -8,7 +8,7 @@ const router = require('./routes')
 
 const app = express()
 app.use(cors({
-    origin : process.env.FRONTEND_URL,
+    origin : "https://66452cb26e477b8b12977e53--fabulous-marzipan-8e5ed4.netlify.app",
     credentials : true
 }))
 app.use(express.json())
