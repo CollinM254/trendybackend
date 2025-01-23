@@ -8,7 +8,7 @@ const router = require('./routes')
 
 const app = express()
 app.use(cors({
-    origin : "https://trendygadgetske.com",
+    origin : "https://frontendtrend.vercel.app",
     credentials : true
 }))
 app.use(express.json())
